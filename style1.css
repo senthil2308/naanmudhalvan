@@ -1,0 +1,71 @@
+ body {
+            background-color: lightblue; /* Set the background color to light blue */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 10vh;
+            height: 100vh;
+            margin: 0;
+        }
+
+        form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            text-align: center;
+            color: lightblue;
+            font-family: sans-serif;
+
+        }
+
+        fieldset {
+            border: 2px solid #333;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        button {
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #007bff;
+        }
+
+      .number {
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    border-radius: 50%;
+    width: 30px; /* Set the width to create a circle */
+    height: 30px; /* Set the height to create a circle */
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+}
